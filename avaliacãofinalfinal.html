@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços de Criação de Sites</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">Criação de Sites</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seção de conteúdo principal -->
+  <div class="container my-5">
+    <div class="p-4 bg-white shadow rounded">
+      <h1>Sites Profissionais para Pequenas e Médias Empresas</h1>
+      <p>Desenvolvemos sites de alta qualidade, responsivos e personalizados para atender às necessidades específicas do seu negócio. Aumente sua presença online com um site que reflete o valor da sua marca.</p>
+      <button class="btn btn-primary">Saiba mais</button>
+    </div>
+  </div>
+
+  <!-- Depoimentos -->
+  <div class="container my-5">
+    <h2 class="text-center">O que nossos clientes dizem</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">"Graças ao novo site, nossas vendas cresceram 30%! O serviço foi impecável, desde o atendimento até a entrega do projeto."</p>
+            <p class="text-end"><strong>João Silva, Empresa gpt</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">"A equipe nos ajudou a criar um site moderno e fácil de usar. Já recebemos muitos elogios de nossos clientes!"</p>
+            <p class="text-end"><strong>Maria Oliveira, Startup gpt</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">"Profissionalismo e atenção aos detalhes foram o diferencial. Recomendo a todos que buscam qualidade e eficiência."</p>
+            <p class="text-end"><strong>Getulho Pinto torres vulgo gpt, Loja Virtual gpt</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Seção de Parceiros -->
+  <div class="container my-5">
+    <h2 class="text-center">Empresas que Confiam em Nós</h2>
+    <div class="d-flex justify-content-around my-4">
+      <div class="text-center">
+        <img src="Memezonelogo.jpg" alt="MemeZone" width="300" height="280">
+        <p>MemeZone</p>
+      </div>
+      <div class="text-center">
+        <img src="vila.jpg" alt="CHAVE" width="300" height="280">
+        <p>CHAVE</p>
+      </div>
+      <div class="text-center">
+        <img src="lines.jpg" alt="siteincompleto" width="300" height="280">
+        <p>siteincompleto</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card da história da empresa -->
+  <div class="container my-5">
+    <div class="card y= 50" >
+      <img src="IMG_20241010_162745355.jpg" class="card-img-top w-25" alt="Foto da empresa">
+      <div class="card-body">
+        <h5 class="card-title">Nossa História</h5>
+        <p class="card-text">
+          Fundada em 2024, nossa empresa tem como missão oferecer soluções inovadoras e acessíveis para pequenas e médias empresas. Já ajudamos mais de 50 negócios a melhorar sua presença digital.
+        </p>
+        <a href="#" class="btn btn-primary">Saiba mais sobre nós</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Login -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="loginForm">
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="bg-primary text-white py-3">
+    <div class="container text-center">
+      <p>&copy; 2024 Criação de Sites. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JavaScript para o login -->
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Impede o envio do formulário
+
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('password').value;
+
+      if (email === '' || password === '') {
+        alert('Por favor, preencha todos os campos.');
+      } else {
+        alert('Login bem-sucedido! Bem-vindo, ' + email);
+        // Fechar o modal após o login
+        var modalElement = document.getElementById('loginModal');
+        var modal = bootstrap.Modal.getInstance(modalElement);
+        modal.hide();
+      }
+    });
+  </script>
+
+</body>
+</html>
